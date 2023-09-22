@@ -1,15 +1,10 @@
 import { StyleSheet } from "react-native";
 import { Text, View } from "../../components/Themed";
-import { PostListItem } from "../../components/PostListItem";
-import posts from "../../assets/data/posts.json";
 
-const firstpost = posts[2];
-
-export default function TabOneScreen() {
+export default function Network() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tab One</Text>
-      <PostListItem post={firstpost} />
+      <Text style={styles.title}>Network</Text>
     </View>
   );
 }
